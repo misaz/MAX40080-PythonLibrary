@@ -11,8 +11,8 @@ This project contains library for controlling MAX40080 Current Sense Amplifier d
 - Tested with
 	- Raspberry Pi 3B
 	- 64-bit Raspberry Pi OS with kernel version 5.15.32
-	- (MikroElektronika Pi 3 Click Shield)[https://www.mikroe.com/pi-3-click-shield]
-	- (MikroElektronika Current 6 Click Board)[https://www.mikroe.com/current-6-click]
+	- [MikroElektronika Pi 3 Click Shield](https://www.mikroe.com/pi-3-click-shield)
+	- [MikroElektronika Current 6 Click Board](https://www.mikroe.com/current-6-click)
 
 ## Getting started
 
