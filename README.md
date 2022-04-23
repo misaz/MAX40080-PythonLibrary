@@ -2,6 +2,8 @@
 
 This project contains library for controlling MAX40080 Current Sense Amplifier digital sensor from Maxim Integrated (now Analog Devices). Library is written in Python and is designed for use with Single Board Computers (SBC) like Raspberry Pi.
 
+This Library was created as part of [Element14 Experimenting with Current Sense Amplifiers Design Challenge](https://community.element14.com/challenges-projects/design-challenges/experimenting-with-current-sense-amplifier/).
+
 ## Features
 - Support for reading both current and voltage.
 - Buildin conversion of measured values to amps and volts. Reading RAW values of current and voltage from sensor is also supported.
