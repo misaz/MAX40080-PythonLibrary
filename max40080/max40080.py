@@ -96,7 +96,7 @@ class MAX40080(object):
 
 			magnitude = val & 0xFFF
 			if val & 0x1000:
-				return -magnitude
+				return -((magnitude ^ 0xFFF) + 1);
 			else:
 				return magnitude
 
@@ -133,7 +133,7 @@ class MAX40080(object):
 
 			current = (val & 0xFFF)
 			if val & 0x1000:
-				current = -current
+				current = -((current ^ 0xFFF) + 1);
 
 			voltage = (val & 0xFFF0000) >> 16
 

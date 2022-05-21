@@ -1,3 +1,4 @@
 build/
 dist/
 max40080.egg-info/
+/.vs
